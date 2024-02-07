@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+h1{
+    font-weight: bold;
+    text-align: center;
+}
+#addNumber{
+    padding: 10px 20px 10px 20px ;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#addNumber2{
+    padding: 10px 20px 10px 20px ;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#subnumber{
+    padding: 10px 20px 10px 20px ;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
