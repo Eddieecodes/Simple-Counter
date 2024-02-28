@@ -1,22 +1,23 @@
 body{
-    margin: 0;
-    padding: 0;
-    background-color: aqua;
+  margin: 0;
+  padding: 0;
+  background-color: aqua;
 }
 h1{
-    font-weight: bold;
-    text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
 }
 #displayResult{
-    padding: 10px 20px 10px 20px ;
-    border-radius: 5px;
+  padding: 10px 20px 10px 20px ;
+  border-radius: 5px;
 }
 .main-div{
-    
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+  
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
