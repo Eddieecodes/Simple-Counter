@@ -1,31 +1,16 @@
 //alert("hello world");
+('use strict');
 let addNumber = 0; 
+const counterElement = document.getElementById("displayResult");
 function increment () {
     
     addNumber++; 
-    document.getElementById('addNumber').innerHTML = "counter: " + (addNumber);   
-    //console.log("clicked")
-    
-} 
-let addnumber2 = 0;
-function increment2 () {
-    addnumber2+=2; 
-    document.getElementById('addNumber2').innerHTML = "counter: " + (addnumber2);   
+    document.getElementById('add-increment');
+    counterElement.textContent = `counter :${addNumber}`;
 }
-let number1 = 0;
 function decrement () {
-    number1--;
-    document.getElementById('subnumber').innerHTML = "counter:" + (number1);
+    addNumber--;
+    document.getElementById('sub-decrement');
+    counterElement.textContent = `counter :${addNumber}`;
 }
- 
 
-//  const addNo = document.querySelector("button.addNumber");
- 
-//  console.log(document);
-//  console.log(addNo);
-
-//  addNo.addEventListener('click', {
-//     console.log("clicked")
-//  });
-//  this.textcontent = ("counter" + addNumber)
- 
